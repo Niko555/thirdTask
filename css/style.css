@@ -1,0 +1,24 @@
+﻿#wrapper {
+    margin: 5%;
+}
+
+.tabs_menu {
+    display: table-row;
+}
+
+.tabs_menu li {
+    display: table-cell;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #f8f8f8;
+    color: #292929;
+    border: 1px solid #ccc;
+    padding: 7px 0;
+}
+
+.tabs_menu li.active {
+    background: #ccc;
+    color: #fff;
+}
